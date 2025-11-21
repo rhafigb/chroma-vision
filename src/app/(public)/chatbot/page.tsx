@@ -66,7 +66,7 @@ function ChatbotContent() {
 
     try {
       // Panggil API Backend Python
-      const response = await fetch("http://localhost:8000/chat", {
+      const response = await fetch("https://cytotrophoblastic-marita-topazine.ngrok-free.dev/chat", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

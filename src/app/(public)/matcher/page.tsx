@@ -56,7 +56,7 @@ function MatcherContent() {
   const fetchColorsFromAI = async (season: string) => {
     setLoadingAI(true);
     try {
-        const response = await fetch("http://localhost:8000/recommend-colors", {
+        const response = await fetch("https://cytotrophoblastic-marita-topazine.ngrok-free.dev/recommend-colors", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ season: season })
