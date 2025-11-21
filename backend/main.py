@@ -14,7 +14,7 @@ from google.genai import types
 # --- 1. KONFIGURASI ---
 
 # [PENTING] GANTI DENGAN API KEY ASLI ANDA DARI GOOGLE AI STUDIO
-GENAI_API_KEY = "AIzaSyC8GoNCuS1jSRPiV0_SCJAu7wrpNSNuHzQ" 
+GENAI_API_KEY = "AIzaSyDqJmEexKX9Wly5HFZ3Elic4Q-lzOrHf_k" 
 
 # Inisialisasi Client
 client = genai.Client(api_key=GENAI_API_KEY)
