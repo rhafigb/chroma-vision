@@ -82,7 +82,7 @@ export default function AnalyzerPage() {
       formData.append("file", blob, "scan.png");
 
       // B. Kirim ke Backend Python (Ganti URL jika sudah deploy)
-      const response = await fetch("https://cytotrophoblastic-marita-topazine.ngrok-free.dev/analyzer", {
+      const response = await fetch("https://cytotrophoblastic-marita-topazine.ngrok-free.dev/analyze", {
         method: "POST",
         body: formData,
       });
